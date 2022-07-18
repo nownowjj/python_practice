@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b0a089b3eed55ab5c150f92444c3724e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b0a089b3eed55ab5c150f92444c3724e" ></div>
+        
+</body>
+<script>    
+    
+            var map_b0a089b3eed55ab5c150f92444c3724e = L.map(
+                "map_b0a089b3eed55ab5c150f92444c3724e",
+                {
+                    center: [33.4, 126.55],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a91f35c054bda11c23c22a58aa0f22c0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var marker_7ee7aad901969e12b767c455c44d21dc = L.marker(
+                [33.5311472805408, 126.668832912458],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_44982cfc92337a9957fb851de32e44b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ee7aad901969e12b767c455c44d21dc.setIcon(icon_44982cfc92337a9957fb851de32e44b8);
+        
+    
+        var popup_743698a724962a248e27fa233ba46156 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77506bff7f64d598ed44e0a5cf751f08 = $(`<div id="html_77506bff7f64d598ed44e0a5cf751f08" style="width: 100.0%; height: 100.0%;">함덕점(cheogajip)</div>`)[0];
+            popup_743698a724962a248e27fa233ba46156.setContent(html_77506bff7f64d598ed44e0a5cf751f08);
+        
+
+        marker_7ee7aad901969e12b767c455c44d21dc.bindPopup(popup_743698a724962a248e27fa233ba46156)
+        ;
+
+        
+    
+    
+            var marker_801ec856fadcd3edd04994a5e4ae864c = L.marker(
+                [33.4164920320925, 126.268889707458],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_a5c362dda9cee51e315d2cedaa6e146d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_801ec856fadcd3edd04994a5e4ae864c.setIcon(icon_a5c362dda9cee51e315d2cedaa6e146d);
+        
+    
+        var popup_2e7d7be399284c6eaa4b923914348670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da619322ac5791159656fa50c3e8fe45 = $(`<div id="html_da619322ac5791159656fa50c3e8fe45" style="width: 100.0%; height: 100.0%;">한림점(cheogajip)</div>`)[0];
+            popup_2e7d7be399284c6eaa4b923914348670.setContent(html_da619322ac5791159656fa50c3e8fe45);
+        
+
+        marker_801ec856fadcd3edd04994a5e4ae864c.bindPopup(popup_2e7d7be399284c6eaa4b923914348670)
+        ;
+
+        
+    
+    
+            var marker_b5dd753a60a438f82798d54af045b0ce = L.marker(
+                [33.2535456968697, 126.510434137788],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_500e5a0b5dbac93060257943f157d1d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5dd753a60a438f82798d54af045b0ce.setIcon(icon_500e5a0b5dbac93060257943f157d1d9);
+        
+    
+        var popup_7d0c14ceaf258d6d1f75b87e6759caef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5935a0e74c3b899cbf00263833f6374e = $(`<div id="html_5935a0e74c3b899cbf00263833f6374e" style="width: 100.0%; height: 100.0%;">서귀포신시가지점(cheogajip)</div>`)[0];
+            popup_7d0c14ceaf258d6d1f75b87e6759caef.setContent(html_5935a0e74c3b899cbf00263833f6374e);
+        
+
+        marker_b5dd753a60a438f82798d54af045b0ce.bindPopup(popup_7d0c14ceaf258d6d1f75b87e6759caef)
+        ;
+
+        
+    
+    
+            var marker_871b34eaddf8cf4de900afcbbe443398 = L.marker(
+                [33.490958057898, 126.426267356589],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_490298f77f4b3de7371aadcdb041f8c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_871b34eaddf8cf4de900afcbbe443398.setIcon(icon_490298f77f4b3de7371aadcdb041f8c9);
+        
+    
+        var popup_f31d16daded398b484516c0af460eda6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b70ae5f444406ba5b59285e167b44fc = $(`<div id="html_7b70ae5f444406ba5b59285e167b44fc" style="width: 100.0%; height: 100.0%;">외도하귀점(cheogajip)</div>`)[0];
+            popup_f31d16daded398b484516c0af460eda6.setContent(html_7b70ae5f444406ba5b59285e167b44fc);
+        
+
+        marker_871b34eaddf8cf4de900afcbbe443398.bindPopup(popup_f31d16daded398b484516c0af460eda6)
+        ;
+
+        
+    
+    
+            var marker_89bb5d3166a27b21ed25023744fc01e7 = L.marker(
+                [33.4963298519357, 126.52167784939],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_12747e6909f20479578a90fd61940a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89bb5d3166a27b21ed25023744fc01e7.setIcon(icon_12747e6909f20479578a90fd61940a24);
+        
+    
+        var popup_6971a49dcff35c6bfd955485daf7774c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f36392fc335143b09c593efd39bf32 = $(`<div id="html_31f36392fc335143b09c593efd39bf32" style="width: 100.0%; height: 100.0%;">도남시청점(cheogajip)</div>`)[0];
+            popup_6971a49dcff35c6bfd955485daf7774c.setContent(html_31f36392fc335143b09c593efd39bf32);
+        
+
+        marker_89bb5d3166a27b21ed25023744fc01e7.bindPopup(popup_6971a49dcff35c6bfd955485daf7774c)
+        ;
+
+        
+    
+    
+            var marker_fbe64af911996e87e2f13683eca598ea = L.marker(
+                [33.4735946787318, 126.544086356727],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_5c9de04b25a7dfcce2ad975439350ca0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbe64af911996e87e2f13683eca598ea.setIcon(icon_5c9de04b25a7dfcce2ad975439350ca0);
+        
+    
+        var popup_0b72c1803e468bcefc8f7a679e49cbee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5c222d0e260270ff1462a0d90b73e87 = $(`<div id="html_a5c222d0e260270ff1462a0d90b73e87" style="width: 100.0%; height: 100.0%;">아라점(cheogajip)</div>`)[0];
+            popup_0b72c1803e468bcefc8f7a679e49cbee.setContent(html_a5c222d0e260270ff1462a0d90b73e87);
+        
+
+        marker_fbe64af911996e87e2f13683eca598ea.bindPopup(popup_0b72c1803e468bcefc8f7a679e49cbee)
+        ;
+
+        
+    
+    
+            var marker_c7a71d1c553b4defa32160e801705775 = L.marker(
+                [33.2488277854945, 126.557533210902],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_e23a9c394d871d6ed78fe78633eda4d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7a71d1c553b4defa32160e801705775.setIcon(icon_e23a9c394d871d6ed78fe78633eda4d9);
+        
+    
+        var popup_736fe2d2ee5936e70ccab8613a8b77f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_381178c054f89f6b0843e9ee6558adf8 = $(`<div id="html_381178c054f89f6b0843e9ee6558adf8" style="width: 100.0%; height: 100.0%;">서귀포점(cheogajip)</div>`)[0];
+            popup_736fe2d2ee5936e70ccab8613a8b77f2.setContent(html_381178c054f89f6b0843e9ee6558adf8);
+        
+
+        marker_c7a71d1c553b4defa32160e801705775.bindPopup(popup_736fe2d2ee5936e70ccab8613a8b77f2)
+        ;
+
+        
+    
+    
+            var marker_5ef2dc3f18d0890c5afad01f128f89ff = L.marker(
+                [33.5209060511618, 126.585415881219],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_dd66bf3516619b5e6a741b3438e534de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ef2dc3f18d0890c5afad01f128f89ff.setIcon(icon_dd66bf3516619b5e6a741b3438e534de);
+        
+    
+        var popup_6132f02e60d2b102334280a03fae57e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_debc4227189c727d843116714f23fa84 = $(`<div id="html_debc4227189c727d843116714f23fa84" style="width: 100.0%; height: 100.0%;">제주삼양점(cheogajip)</div>`)[0];
+            popup_6132f02e60d2b102334280a03fae57e9.setContent(html_debc4227189c727d843116714f23fa84);
+        
+
+        marker_5ef2dc3f18d0890c5afad01f128f89ff.bindPopup(popup_6132f02e60d2b102334280a03fae57e9)
+        ;
+
+        
+    
+    
+            var marker_341fe866922af70d46b0d8b4d82e0f5f = L.marker(
+                [33.4912159508567, 126.544144786867],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_6efbc14685431cf8850f84b0a1e22adf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_341fe866922af70d46b0d8b4d82e0f5f.setIcon(icon_6efbc14685431cf8850f84b0a1e22adf);
+        
+    
+        var popup_7a1d3d85a3107ced605fea0c9bc1cd78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34512528ddc1108007eadd41b869773a = $(`<div id="html_34512528ddc1108007eadd41b869773a" style="width: 100.0%; height: 100.0%;">이도점(cheogajip)</div>`)[0];
+            popup_7a1d3d85a3107ced605fea0c9bc1cd78.setContent(html_34512528ddc1108007eadd41b869773a);
+        
+
+        marker_341fe866922af70d46b0d8b4d82e0f5f.bindPopup(popup_7a1d3d85a3107ced605fea0c9bc1cd78)
+        ;
+
+        
+    
+    
+            var marker_1ec177b973bee4f9feb9d1c92e7ff7d2 = L.marker(
+                [33.4841220760346, 126.492365957717],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_08f03431dbfa418d5f0fc2d0be0255f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ec177b973bee4f9feb9d1c92e7ff7d2.setIcon(icon_08f03431dbfa418d5f0fc2d0be0255f4);
+        
+    
+        var popup_7fe9fd839d8b931c7820f3d1a6e51e50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b80ebb27283a72defa4c2bf69ae4c73b = $(`<div id="html_b80ebb27283a72defa4c2bf69ae4c73b" style="width: 100.0%; height: 100.0%;">제주연동점(cheogajip)</div>`)[0];
+            popup_7fe9fd839d8b931c7820f3d1a6e51e50.setContent(html_b80ebb27283a72defa4c2bf69ae4c73b);
+        
+
+        marker_1ec177b973bee4f9feb9d1c92e7ff7d2.bindPopup(popup_7fe9fd839d8b931c7820f3d1a6e51e50)
+        ;
+
+        
+    
+    
+            var marker_b99d56ea15f12b246e5493eafb4824ef = L.marker(
+                [33.50880482511, 126.510736857537],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_19dff54116bf8ab7c5384d67b23416a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b99d56ea15f12b246e5493eafb4824ef.setIcon(icon_19dff54116bf8ab7c5384d67b23416a3);
+        
+    
+        var popup_690e343959a9cd600499c49078cd2124 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f815e2a80eebfc3d625080170601f61 = $(`<div id="html_8f815e2a80eebfc3d625080170601f61" style="width: 100.0%; height: 100.0%;">용담점(cheogajip)</div>`)[0];
+            popup_690e343959a9cd600499c49078cd2124.setContent(html_8f815e2a80eebfc3d625080170601f61);
+        
+
+        marker_b99d56ea15f12b246e5493eafb4824ef.bindPopup(popup_690e343959a9cd600499c49078cd2124)
+        ;
+
+        
+    
+    
+            var marker_80835e6bb70c11584ce0e06f61eed94b = L.marker(
+                [33.5069558958426, 126.54478755604],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_7b0a2df070216115ef13ea79f4563ba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80835e6bb70c11584ce0e06f61eed94b.setIcon(icon_7b0a2df070216115ef13ea79f4563ba5);
+        
+    
+        var popup_ece5eced9eaa3c69876a7a8232172923 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d407cd91f9fad7b1a1b9000fb582e759 = $(`<div id="html_d407cd91f9fad7b1a1b9000fb582e759" style="width: 100.0%; height: 100.0%;">일도점(cheogajip)</div>`)[0];
+            popup_ece5eced9eaa3c69876a7a8232172923.setContent(html_d407cd91f9fad7b1a1b9000fb582e759);
+        
+
+        marker_80835e6bb70c11584ce0e06f61eed94b.bindPopup(popup_ece5eced9eaa3c69876a7a8232172923)
+        ;
+
+        
+    
+    
+            var marker_4250be537b374f455ff0bc4f0fc251b6 = L.marker(
+                [33.4907613797697, 126.475346765002],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_4a8830c2e4a9ac422b00bc11b2c363e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4250be537b374f455ff0bc4f0fc251b6.setIcon(icon_4a8830c2e4a9ac422b00bc11b2c363e3);
+        
+    
+        var popup_c2151c54b27b9ec4c3503f134f8728af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a975da435fa1e2ca389dc65d60bad05 = $(`<div id="html_1a975da435fa1e2ca389dc65d60bad05" style="width: 100.0%; height: 100.0%;">노형점(cheogajip)</div>`)[0];
+            popup_c2151c54b27b9ec4c3503f134f8728af.setContent(html_1a975da435fa1e2ca389dc65d60bad05);
+        
+
+        marker_4250be537b374f455ff0bc4f0fc251b6.bindPopup(popup_c2151c54b27b9ec4c3503f134f8728af)
+        ;
+
+        
+    
+    
+            var marker_ca077e08e9c108c013577a55765fb7c1 = L.marker(
+                [33.4841852287233, 126.484577736912],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_f71d086fd5d97d36215ea89c73936e9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca077e08e9c108c013577a55765fb7c1.setIcon(icon_f71d086fd5d97d36215ea89c73936e9a);
+        
+    
+        var popup_eb095b390253ecbd685f65b4e95810e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8e8b6c83c273dc6abdac2afceebab95 = $(`<div id="html_c8e8b6c83c273dc6abdac2afceebab95" style="width: 100.0%; height: 100.0%;">제주제주시노형점(nene)</div>`)[0];
+            popup_eb095b390253ecbd685f65b4e95810e6.setContent(html_c8e8b6c83c273dc6abdac2afceebab95);
+        
+
+        marker_ca077e08e9c108c013577a55765fb7c1.bindPopup(popup_eb095b390253ecbd685f65b4e95810e6)
+        ;
+
+        
+    
+    
+            var marker_4ef21e2001899c94ee6bbe2794c0af11 = L.marker(
+                [33.4890324592039, 126.431414874497],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_e2bc59deee6deeb12a634a818fa3012d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ef21e2001899c94ee6bbe2794c0af11.setIcon(icon_e2bc59deee6deeb12a634a818fa3012d);
+        
+    
+        var popup_d2e3dad42c8197adedafb0055ab857bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_249bfe24d1f6133f2dd6140f2d499a11 = $(`<div id="html_249bfe24d1f6133f2dd6140f2d499a11" style="width: 100.0%; height: 100.0%;">제주제주시외도점(nene)</div>`)[0];
+            popup_d2e3dad42c8197adedafb0055ab857bc.setContent(html_249bfe24d1f6133f2dd6140f2d499a11);
+        
+
+        marker_4ef21e2001899c94ee6bbe2794c0af11.bindPopup(popup_d2e3dad42c8197adedafb0055ab857bc)
+        ;
+
+        
+    
+    
+            var marker_23e256cc092c4b0dbbd0a50132f1def9 = L.marker(
+                [33.5197459907139, 126.565533241217],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_26189804c1b29cf0d486cd41c1f1d327 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_23e256cc092c4b0dbbd0a50132f1def9.setIcon(icon_26189804c1b29cf0d486cd41c1f1d327);
+        
+    
+        var popup_b1db5985b0bfa9f436c2ca28c8e27bff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99cc93b68b774e5b3a5905288b4a04cf = $(`<div id="html_99cc93b68b774e5b3a5905288b4a04cf" style="width: 100.0%; height: 100.0%;">제주제주시화북삼양점(nene)</div>`)[0];
+            popup_b1db5985b0bfa9f436c2ca28c8e27bff.setContent(html_99cc93b68b774e5b3a5905288b4a04cf);
+        
+
+        marker_23e256cc092c4b0dbbd0a50132f1def9.bindPopup(popup_b1db5985b0bfa9f436c2ca28c8e27bff)
+        ;
+
+        
+    
+    
+            var marker_408140eef7bbb718ab72bfd09ee4735e = L.marker(
+                [33.2548973196834, 126.569357361932],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_b5b8bfd4830685b8d1c53f5a7ea2830f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_408140eef7bbb718ab72bfd09ee4735e.setIcon(icon_b5b8bfd4830685b8d1c53f5a7ea2830f);
+        
+    
+        var popup_de26fbc7298ee6d4b2279e102271807f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b63a35c8cff14dbf4d3eb6e05d157a8 = $(`<div id="html_2b63a35c8cff14dbf4d3eb6e05d157a8" style="width: 100.0%; height: 100.0%;">제주서귀포시서귀포1점(nene)</div>`)[0];
+            popup_de26fbc7298ee6d4b2279e102271807f.setContent(html_2b63a35c8cff14dbf4d3eb6e05d157a8);
+        
+
+        marker_408140eef7bbb718ab72bfd09ee4735e.bindPopup(popup_de26fbc7298ee6d4b2279e102271807f)
+        ;
+
+        
+    
+    
+            var marker_3e738d261b6df935874c32df486ad7eb = L.marker(
+                [33.256282301752, 126.557463659025],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_523763e424e261765c2506a4d3b8d09e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e738d261b6df935874c32df486ad7eb.setIcon(icon_523763e424e261765c2506a4d3b8d09e);
+        
+    
+        var popup_e20aedcad8f41c496a95c5028000557e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f52d220702e745b84109d91874a9ca6e = $(`<div id="html_f52d220702e745b84109d91874a9ca6e" style="width: 100.0%; height: 100.0%;">제주서귀포시서귀포2호점(nene)</div>`)[0];
+            popup_e20aedcad8f41c496a95c5028000557e.setContent(html_f52d220702e745b84109d91874a9ca6e);
+        
+
+        marker_3e738d261b6df935874c32df486ad7eb.bindPopup(popup_e20aedcad8f41c496a95c5028000557e)
+        ;
+
+        
+    
+    
+            var marker_1f4fc6d6d6f6941f34953013c14364a8 = L.marker(
+                [33.2580249064314, 126.512366301834],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_3a1782db45e0fafa6a20863eb2980f1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f4fc6d6d6f6941f34953013c14364a8.setIcon(icon_3a1782db45e0fafa6a20863eb2980f1a);
+        
+    
+        var popup_1ed4c0f72ceee4759e0d36e1191ff9cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5b01d42dc543c45fe3723fc99dd3a4 = $(`<div id="html_7c5b01d42dc543c45fe3723fc99dd3a4" style="width: 100.0%; height: 100.0%;">제주서귀포시신시가지점(nene)</div>`)[0];
+            popup_1ed4c0f72ceee4759e0d36e1191ff9cf.setContent(html_7c5b01d42dc543c45fe3723fc99dd3a4);
+        
+
+        marker_1f4fc6d6d6f6941f34953013c14364a8.bindPopup(popup_1ed4c0f72ceee4759e0d36e1191ff9cf)
+        ;
+
+        
+    
+    
+            var marker_a385dc65b9f315462d43e008fadea201 = L.marker(
+                [33.3287389786459, 126.83546766057],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_d3bcbbcf2d1f07cc6efbd48cee0a2b98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a385dc65b9f315462d43e008fadea201.setIcon(icon_d3bcbbcf2d1f07cc6efbd48cee0a2b98);
+        
+    
+        var popup_217aef7e1fb38ebb96155349bf8d056e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c03045cce29ae44843967b5f5a228e7b = $(`<div id="html_c03045cce29ae44843967b5f5a228e7b" style="width: 100.0%; height: 100.0%;">제주서귀포시표선점(nene)</div>`)[0];
+            popup_217aef7e1fb38ebb96155349bf8d056e.setContent(html_c03045cce29ae44843967b5f5a228e7b);
+        
+
+        marker_a385dc65b9f315462d43e008fadea201.bindPopup(popup_217aef7e1fb38ebb96155349bf8d056e)
+        ;
+
+        
+    
+    
+            var marker_2bca86f3bbab3ec25cd3a2e0b2d32a05 = L.marker(
+                [33.5019213768651, 126.542113464557],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_fb6321b22a9f9bb218b038c351aeca0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bca86f3bbab3ec25cd3a2e0b2d32a05.setIcon(icon_fb6321b22a9f9bb218b038c351aeca0b);
+        
+    
+        var popup_ae4da7c42bb36eda59d0a9887003a49c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d2f52207e3e58c964d3beff2fab34a1 = $(`<div id="html_0d2f52207e3e58c964d3beff2fab34a1" style="width: 100.0%; height: 100.0%;">제주제주시일도점(nene)</div>`)[0];
+            popup_ae4da7c42bb36eda59d0a9887003a49c.setContent(html_0d2f52207e3e58c964d3beff2fab34a1);
+        
+
+        marker_2bca86f3bbab3ec25cd3a2e0b2d32a05.bindPopup(popup_ae4da7c42bb36eda59d0a9887003a49c)
+        ;
+
+        
+    
+    
+            var marker_c06247724652626a4eff9e885a7003b0 = L.marker(
+                [33.4715297495206, 126.544135038425],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_1b471ca562ba8b0be1d76fa43b8e0441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c06247724652626a4eff9e885a7003b0.setIcon(icon_1b471ca562ba8b0be1d76fa43b8e0441);
+        
+    
+        var popup_d984a4c8299735f60a55bdff725be65f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddc6504bacf740ec62a457fa26d8df55 = $(`<div id="html_ddc6504bacf740ec62a457fa26d8df55" style="width: 100.0%; height: 100.0%;">제주제주시아라점(nene)</div>`)[0];
+            popup_d984a4c8299735f60a55bdff725be65f.setContent(html_ddc6504bacf740ec62a457fa26d8df55);
+        
+
+        marker_c06247724652626a4eff9e885a7003b0.bindPopup(popup_d984a4c8299735f60a55bdff725be65f)
+        ;
+
+        
+    
+    
+            var marker_04e526e953db65de11ffa227e899b626 = L.marker(
+                [33.5088997461005, 126.509957111263],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_6d0b5d06a6a1f6fbbb693c7996ed7cd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04e526e953db65de11ffa227e899b626.setIcon(icon_6d0b5d06a6a1f6fbbb693c7996ed7cd5);
+        
+    
+        var popup_db3bff6866b362b6af04b3234f18d43c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc3169182a444fd046ae9fa19d93cd6d = $(`<div id="html_cc3169182a444fd046ae9fa19d93cd6d" style="width: 100.0%; height: 100.0%;">제주제주시용담점(nene)</div>`)[0];
+            popup_db3bff6866b362b6af04b3234f18d43c.setContent(html_cc3169182a444fd046ae9fa19d93cd6d);
+        
+
+        marker_04e526e953db65de11ffa227e899b626.bindPopup(popup_db3bff6866b362b6af04b3234f18d43c)
+        ;
+
+        
+    
+    
+            var marker_bff6c3a9b5c07f73c457039b503af517 = L.marker(
+                [33.2814336421901, 126.721200904465],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_efb742c6ed9ac25a41dd3d6d41c6be1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bff6c3a9b5c07f73c457039b503af517.setIcon(icon_efb742c6ed9ac25a41dd3d6d41c6be1e);
+        
+    
+        var popup_1f276ce63ddac35084bd1448ae7b6178 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53e66773f43776979db83f58c7b09f21 = $(`<div id="html_53e66773f43776979db83f58c7b09f21" style="width: 100.0%; height: 100.0%;">제주서귀포시남원점(nene)</div>`)[0];
+            popup_1f276ce63ddac35084bd1448ae7b6178.setContent(html_53e66773f43776979db83f58c7b09f21);
+        
+
+        marker_bff6c3a9b5c07f73c457039b503af517.bindPopup(popup_1f276ce63ddac35084bd1448ae7b6178)
+        ;
+
+        
+    
+    
+            var marker_5eaa4192a88b7a7ebf3cbc0ec48925fa = L.marker(
+                [33.2315526938157, 126.481325455466],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_3805b8f4054f2b258346950b9db11e93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5eaa4192a88b7a7ebf3cbc0ec48925fa.setIcon(icon_3805b8f4054f2b258346950b9db11e93);
+        
+    
+        var popup_42f934c08c248c59ba2dcb82d7f3f70a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89804f6ecccaee409a16fb991573ee89 = $(`<div id="html_89804f6ecccaee409a16fb991573ee89" style="width: 100.0%; height: 100.0%;">제주서귀포시강정해군기지점(nene)</div>`)[0];
+            popup_42f934c08c248c59ba2dcb82d7f3f70a.setContent(html_89804f6ecccaee409a16fb991573ee89);
+        
+
+        marker_5eaa4192a88b7a7ebf3cbc0ec48925fa.bindPopup(popup_42f934c08c248c59ba2dcb82d7f3f70a)
+        ;
+
+        
+    
+    
+            var marker_937b43427d501f3bca12fd93f9f5d92d = L.marker(
+                [33.4497896543508, 126.914693731342],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_0d8a90e3240b4b2e1a9da5126b3e2888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_937b43427d501f3bca12fd93f9f5d92d.setIcon(icon_0d8a90e3240b4b2e1a9da5126b3e2888);
+        
+    
+        var popup_56343eb5401be1f81d076e2b576c870c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dffcf6ab83a217f9d3008ce2d1b7cd32 = $(`<div id="html_dffcf6ab83a217f9d3008ce2d1b7cd32" style="width: 100.0%; height: 100.0%;">제주서귀포시성산점(nene)</div>`)[0];
+            popup_56343eb5401be1f81d076e2b576c870c.setContent(html_dffcf6ab83a217f9d3008ce2d1b7cd32);
+        
+
+        marker_937b43427d501f3bca12fd93f9f5d92d.bindPopup(popup_56343eb5401be1f81d076e2b576c870c)
+        ;
+
+        
+    
+    
+            var marker_6aaf27154d50efeac97ddcc33e61a697 = L.marker(
+                [33.4892717406773, 126.597205365567],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_40ccdd1d16a1819b55b7049cd55dbfd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6aaf27154d50efeac97ddcc33e61a697.setIcon(icon_40ccdd1d16a1819b55b7049cd55dbfd3);
+        
+    
+        var popup_c02a7fa01c69d0e59c56e030cc69c884 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf6cf8b2e806c1b5826a4327fb7131ef = $(`<div id="html_cf6cf8b2e806c1b5826a4327fb7131ef" style="width: 100.0%; height: 100.0%;">제주제주시봉개점(nene)</div>`)[0];
+            popup_c02a7fa01c69d0e59c56e030cc69c884.setContent(html_cf6cf8b2e806c1b5826a4327fb7131ef);
+        
+
+        marker_6aaf27154d50efeac97ddcc33e61a697.bindPopup(popup_c02a7fa01c69d0e59c56e030cc69c884)
+        ;
+
+        
+    
+    
+            var marker_8e48fc3162a1d73632cdd965451a4227 = L.marker(
+                [33.2599028985768, 126.360708428986],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_9141929de3a3b29961d5869e210183d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e48fc3162a1d73632cdd965451a4227.setIcon(icon_9141929de3a3b29961d5869e210183d5);
+        
+    
+        var popup_27ce13a22173e7d4e55e16b65c69ed1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3c19fe82a6c8c126e6b535d9beda863 = $(`<div id="html_e3c19fe82a6c8c126e6b535d9beda863" style="width: 100.0%; height: 100.0%;">제주서귀포시화순안덕점(nene)</div>`)[0];
+            popup_27ce13a22173e7d4e55e16b65c69ed1b.setContent(html_e3c19fe82a6c8c126e6b535d9beda863);
+        
+
+        marker_8e48fc3162a1d73632cdd965451a4227.bindPopup(popup_27ce13a22173e7d4e55e16b65c69ed1b)
+        ;
+
+        
+    
+    
+            var marker_1c7cba30a6d0646f910b839924b57335 = L.marker(
+                [33.2518437917327, 126.424994501653],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_adc1e948ddfb9715884997ba7a2d55ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c7cba30a6d0646f910b839924b57335.setIcon(icon_adc1e948ddfb9715884997ba7a2d55ad);
+        
+    
+        var popup_7cd620ed5cc2f4d22020170d07138695 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_995f4e555d022c9446e7c6e4be628652 = $(`<div id="html_995f4e555d022c9446e7c6e4be628652" style="width: 100.0%; height: 100.0%;">제주서귀포시중문점(nene)</div>`)[0];
+            popup_7cd620ed5cc2f4d22020170d07138695.setContent(html_995f4e555d022c9446e7c6e4be628652);
+        
+
+        marker_1c7cba30a6d0646f910b839924b57335.bindPopup(popup_7cd620ed5cc2f4d22020170d07138695)
+        ;
+
+        
+    
+    
+            var marker_ae7cb76e23e279fdd514cd77cf460f0f = L.marker(
+                [33.519498975625, 126.56553921228],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_16396f0f87b5521915bd32913674cec7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ae7cb76e23e279fdd514cd77cf460f0f.setIcon(icon_16396f0f87b5521915bd32913674cec7);
+        
+    
+        var popup_d53826fcebe0e1b33f954ae69978c971 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ae0a57ed85294bf60a57bc7914b1bce = $(`<div id="html_0ae0a57ed85294bf60a57bc7914b1bce" style="width: 100.0%; height: 100.0%;">화북삼양점(goobne)</div>`)[0];
+            popup_d53826fcebe0e1b33f954ae69978c971.setContent(html_0ae0a57ed85294bf60a57bc7914b1bce);
+        
+
+        marker_ae7cb76e23e279fdd514cd77cf460f0f.bindPopup(popup_d53826fcebe0e1b33f954ae69978c971)
+        ;
+
+        
+    
+    
+            var marker_b31a790955e263544e31c1d6625b8528 = L.marker(
+                [33.5452449588589, 126.661369818126],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_1096cbc16c84f1f35484d0f8b438aebd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b31a790955e263544e31c1d6625b8528.setIcon(icon_1096cbc16c84f1f35484d0f8b438aebd);
+        
+    
+        var popup_b90203b35d0a458a83bbec730b6247f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3662af199298b3270a06a247276d29da = $(`<div id="html_3662af199298b3270a06a247276d29da" style="width: 100.0%; height: 100.0%;">함덕점(goobne)</div>`)[0];
+            popup_b90203b35d0a458a83bbec730b6247f1.setContent(html_3662af199298b3270a06a247276d29da);
+        
+
+        marker_b31a790955e263544e31c1d6625b8528.bindPopup(popup_b90203b35d0a458a83bbec730b6247f1)
+        ;
+
+        
+    
+    
+            var marker_7bf51e510b314ef84fff10479350fcd8 = L.marker(
+                [33.4771522681081, 126.487972213268],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_197211c4b5cd403d19ff801524afa481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_7bf51e510b314ef84fff10479350fcd8.setIcon(icon_197211c4b5cd403d19ff801524afa481);
+        
+    
+        var popup_e0f35e5b266b2e4d4f0c1be2e2c95a9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b09c1744bcd09a1e044a5d3244200783 = $(`<div id="html_b09c1744bcd09a1e044a5d3244200783" style="width: 100.0%; height: 100.0%;">한라초점(goobne)</div>`)[0];
+            popup_e0f35e5b266b2e4d4f0c1be2e2c95a9e.setContent(html_b09c1744bcd09a1e044a5d3244200783);
+        
+
+        marker_7bf51e510b314ef84fff10479350fcd8.bindPopup(popup_e0f35e5b266b2e4d4f0c1be2e2c95a9e)
+        ;
+
+        
+    
+    
+            var marker_378581f9621304759cf6b372edd52f6c = L.marker(
+                [33.325616501821, 126.835158949976],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_0b9cfbfd058bef691633e9e128cd34a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_378581f9621304759cf6b372edd52f6c.setIcon(icon_0b9cfbfd058bef691633e9e128cd34a4);
+        
+    
+        var popup_1a3d1af0a5c04ded96dc6bf7bc286ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3caf4327f862b353778908a6ad477aab = $(`<div id="html_3caf4327f862b353778908a6ad477aab" style="width: 100.0%; height: 100.0%;">표선점(goobne)</div>`)[0];
+            popup_1a3d1af0a5c04ded96dc6bf7bc286ed9.setContent(html_3caf4327f862b353778908a6ad477aab);
+        
+
+        marker_378581f9621304759cf6b372edd52f6c.bindPopup(popup_1a3d1af0a5c04ded96dc6bf7bc286ed9)
+        ;
+
+        
+    
+    
+            var marker_645d33d268ff6e842dabeca271106899 = L.marker(
+                [33.4142106618953, 126.262812098291],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_71c7f08607a876a5e2380082d38cbef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_645d33d268ff6e842dabeca271106899.setIcon(icon_71c7f08607a876a5e2380082d38cbef2);
+        
+    
+        var popup_97ba3842df3ab9faf60d14b475d3b593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e24235b996d05680e920d8a3c885a97 = $(`<div id="html_5e24235b996d05680e920d8a3c885a97" style="width: 100.0%; height: 100.0%;">제주한림점(goobne)</div>`)[0];
+            popup_97ba3842df3ab9faf60d14b475d3b593.setContent(html_5e24235b996d05680e920d8a3c885a97);
+        
+
+        marker_645d33d268ff6e842dabeca271106899.bindPopup(popup_97ba3842df3ab9faf60d14b475d3b593)
+        ;
+
+        
+    
+    
+            var marker_caace3081ba5a111999d327d24c00cf0 = L.marker(
+                [33.2519140532507, 126.424298355702],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_4e71b7c6d25c42b89f4dbb597fee46fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_caace3081ba5a111999d327d24c00cf0.setIcon(icon_4e71b7c6d25c42b89f4dbb597fee46fb);
+        
+    
+        var popup_24eb21925ca669bac6a52e5f3594e3d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e03166f2434233e13d0d15fcc5f8bb71 = $(`<div id="html_e03166f2434233e13d0d15fcc5f8bb71" style="width: 100.0%; height: 100.0%;">제주중문점(goobne)</div>`)[0];
+            popup_24eb21925ca669bac6a52e5f3594e3d9.setContent(html_e03166f2434233e13d0d15fcc5f8bb71);
+        
+
+        marker_caace3081ba5a111999d327d24c00cf0.bindPopup(popup_24eb21925ca669bac6a52e5f3594e3d9)
+        ;
+
+        
+    
+    
+            var marker_62d58a282655260bbd784599e55df8cc = L.marker(
+                [33.4850860643702, 126.429559669732],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_ae536b5c8ca7910e00e31e04d9e53c54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_62d58a282655260bbd784599e55df8cc.setIcon(icon_ae536b5c8ca7910e00e31e04d9e53c54);
+        
+    
+        var popup_9c618b37f1753f1e6023510ede05622b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81cb12c4a64eec199ced44b4e7fb3ec5 = $(`<div id="html_81cb12c4a64eec199ced44b4e7fb3ec5" style="width: 100.0%; height: 100.0%;">제주외도점(goobne)</div>`)[0];
+            popup_9c618b37f1753f1e6023510ede05622b.setContent(html_81cb12c4a64eec199ced44b4e7fb3ec5);
+        
+
+        marker_62d58a282655260bbd784599e55df8cc.bindPopup(popup_9c618b37f1753f1e6023510ede05622b)
+        ;
+
+        
+    
+    
+            var marker_b5c98d880fd8467beae6992fb4dbdf5c = L.marker(
+                [33.2923079832133, 126.285168843657],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_762c576f3aeac585ac49b4c7628b24e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b5c98d880fd8467beae6992fb4dbdf5c.setIcon(icon_762c576f3aeac585ac49b4c7628b24e8);
+        
+    
+        var popup_0d3550b67ab62d7d9b74cada556f5348 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_771317ed47448c4a7fe29f4115f20053 = $(`<div id="html_771317ed47448c4a7fe29f4115f20053" style="width: 100.0%; height: 100.0%;">제주영어도시점(goobne)</div>`)[0];
+            popup_0d3550b67ab62d7d9b74cada556f5348.setContent(html_771317ed47448c4a7fe29f4115f20053);
+        
+
+        marker_b5c98d880fd8467beae6992fb4dbdf5c.bindPopup(popup_0d3550b67ab62d7d9b74cada556f5348)
+        ;
+
+        
+    
+    
+            var marker_34cd6a617649580eaa13cbecc076fa74 = L.marker(
+                [33.4854052101743, 126.491768949491],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_9263949aebd46e20dfdfdf9f79bf74ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_34cd6a617649580eaa13cbecc076fa74.setIcon(icon_9263949aebd46e20dfdfdf9f79bf74ba);
+        
+    
+        var popup_f085c786555891e18b2374ece3aab944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a4960e1d42a456ad79e20e4b623551 = $(`<div id="html_a2a4960e1d42a456ad79e20e4b623551" style="width: 100.0%; height: 100.0%;">제주연동점(goobne)</div>`)[0];
+            popup_f085c786555891e18b2374ece3aab944.setContent(html_a2a4960e1d42a456ad79e20e4b623551);
+        
+
+        marker_34cd6a617649580eaa13cbecc076fa74.bindPopup(popup_f085c786555891e18b2374ece3aab944)
+        ;
+
+        
+    
+    
+            var marker_c4dd239f1802d173233ea160ed4c09b7 = L.marker(
+                [33.5357774113453, 126.623962266109],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_519371d0365b6c32889a1bf1a174bc36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c4dd239f1802d173233ea160ed4c09b7.setIcon(icon_519371d0365b6c32889a1bf1a174bc36);
+        
+    
+        var popup_8a56740e56ea0239bf03f3d315435393 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86dd89c9a5bf192a2e3ff5ad003e0698 = $(`<div id="html_86dd89c9a5bf192a2e3ff5ad003e0698" style="width: 100.0%; height: 100.0%;">제주신촌점(goobne)</div>`)[0];
+            popup_8a56740e56ea0239bf03f3d315435393.setContent(html_86dd89c9a5bf192a2e3ff5ad003e0698);
+        
+
+        marker_c4dd239f1802d173233ea160ed4c09b7.bindPopup(popup_8a56740e56ea0239bf03f3d315435393)
+        ;
+
+        
+    
+    
+            var marker_ca011db5badcc80580a027225e3f94ee = L.marker(
+                [33.2549064896847, 126.504755997537],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_db8a2275eb5d90648e3d59d7c92dd60b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ca011db5badcc80580a027225e3f94ee.setIcon(icon_db8a2275eb5d90648e3d59d7c92dd60b);
+        
+    
+        var popup_7fe71e4f7114b6f4f55227a4cec02813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af14c77e5c10189ee22e423af4b91a59 = $(`<div id="html_af14c77e5c10189ee22e423af4b91a59" style="width: 100.0%; height: 100.0%;">제주신시가지점(goobne)</div>`)[0];
+            popup_7fe71e4f7114b6f4f55227a4cec02813.setContent(html_af14c77e5c10189ee22e423af4b91a59);
+        
+
+        marker_ca011db5badcc80580a027225e3f94ee.bindPopup(popup_7fe71e4f7114b6f4f55227a4cec02813)
+        ;
+
+        
+    
+    
+            var marker_779c56d09c4e93fbe282abf456f72fa8 = L.marker(
+                [33.2549752715811, 126.570754314302],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_37c05ca1b5eb00c2abb8982cf0aff566 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_779c56d09c4e93fbe282abf456f72fa8.setIcon(icon_37c05ca1b5eb00c2abb8982cf0aff566);
+        
+    
+        var popup_5bd2e35b5f3c9d9fe616424cb06f1914 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_174e158d9411d2ec9ca72414c42b7984 = $(`<div id="html_174e158d9411d2ec9ca72414c42b7984" style="width: 100.0%; height: 100.0%;">제주동홍점(goobne)</div>`)[0];
+            popup_5bd2e35b5f3c9d9fe616424cb06f1914.setContent(html_174e158d9411d2ec9ca72414c42b7984);
+        
+
+        marker_779c56d09c4e93fbe282abf456f72fa8.bindPopup(popup_5bd2e35b5f3c9d9fe616424cb06f1914)
+        ;
+
+        
+    
+    
+            var marker_1ca8f765a7167149d3773923bf9b8af8 = L.marker(
+                [33.4861288506499, 126.476803271866],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_35376a479816827aa7e08f301e2d3606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1ca8f765a7167149d3773923bf9b8af8.setIcon(icon_35376a479816827aa7e08f301e2d3606);
+        
+    
+        var popup_15d7c70e48284a78019671765aeece7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0fe23c4f99e7ef043253a857b92d03c = $(`<div id="html_e0fe23c4f99e7ef043253a857b92d03c" style="width: 100.0%; height: 100.0%;">제주노형점(goobne)</div>`)[0];
+            popup_15d7c70e48284a78019671765aeece7a.setContent(html_e0fe23c4f99e7ef043253a857b92d03c);
+        
+
+        marker_1ca8f765a7167149d3773923bf9b8af8.bindPopup(popup_15d7c70e48284a78019671765aeece7a)
+        ;
+
+        
+    
+    
+            var marker_3c22e77ded666c22f3d28416a08bd847 = L.marker(
+                [33.502785319554, 126.54380982761],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_993dd163d0fe3d0936e941b7e4ae149a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3c22e77ded666c22f3d28416a08bd847.setIcon(icon_993dd163d0fe3d0936e941b7e4ae149a);
+        
+    
+        var popup_91a22217e7e91d679a63b97fe1733d71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b0590a578cbac73eb5298f9f8258096 = $(`<div id="html_0b0590a578cbac73eb5298f9f8258096" style="width: 100.0%; height: 100.0%;">일도동광초점(goobne)</div>`)[0];
+            popup_91a22217e7e91d679a63b97fe1733d71.setContent(html_0b0590a578cbac73eb5298f9f8258096);
+        
+
+        marker_3c22e77ded666c22f3d28416a08bd847.bindPopup(popup_91a22217e7e91d679a63b97fe1733d71)
+        ;
+
+        
+    
+    
+            var marker_de9d0c95f27cd8cb56ece0028af4188e = L.marker(
+                [33.514341126312, 126.957125722487],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_bbb1e82baff9e7c8ecdd936b18ee68ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_de9d0c95f27cd8cb56ece0028af4188e.setIcon(icon_bbb1e82baff9e7c8ecdd936b18ee68ea);
+        
+    
+        var popup_b2198010a8df2f5520fe055f4320a0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de1277aa49b7e5b22f324d5a9cf74901 = $(`<div id="html_de1277aa49b7e5b22f324d5a9cf74901" style="width: 100.0%; height: 100.0%;">우도점(goobne)</div>`)[0];
+            popup_b2198010a8df2f5520fe055f4320a0f4.setContent(html_de1277aa49b7e5b22f324d5a9cf74901);
+        
+
+        marker_de9d0c95f27cd8cb56ece0028af4188e.bindPopup(popup_b2198010a8df2f5520fe055f4320a0f4)
+        ;
+
+        
+    
+    
+            var marker_be1bd4fd7e93b7235bdfd7afe72ef5db = L.marker(
+                [33.5125076038608, 126.510199176218],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_3228929116507e3bc9eaa30e6164d645 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_be1bd4fd7e93b7235bdfd7afe72ef5db.setIcon(icon_3228929116507e3bc9eaa30e6164d645);
+        
+    
+        var popup_db86c379a4853a5aa56ff02c02af86b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a2e7b374c1b8d50d08ae791b5be97dd = $(`<div id="html_7a2e7b374c1b8d50d08ae791b5be97dd" style="width: 100.0%; height: 100.0%;">용담점(goobne)</div>`)[0];
+            popup_db86c379a4853a5aa56ff02c02af86b7.setContent(html_7a2e7b374c1b8d50d08ae791b5be97dd);
+        
+
+        marker_be1bd4fd7e93b7235bdfd7afe72ef5db.bindPopup(popup_db86c379a4853a5aa56ff02c02af86b7)
+        ;
+
+        
+    
+    
+            var marker_621ba4722ef121dc9641e2acb11a9822 = L.marker(
+                [33.4818927435746, 126.55922638871],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_da7b128f505f3ca329605bad4d2c3c13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_621ba4722ef121dc9641e2acb11a9822.setIcon(icon_da7b128f505f3ca329605bad4d2c3c13);
+        
+    
+        var popup_60a36f465d2dc092b8792215dd223b66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f3301ebae0fb5d1339c591a6911800e = $(`<div id="html_0f3301ebae0fb5d1339c591a6911800e" style="width: 100.0%; height: 100.0%;">영평점(goobne)</div>`)[0];
+            popup_60a36f465d2dc092b8792215dd223b66.setContent(html_0f3301ebae0fb5d1339c591a6911800e);
+        
+
+        marker_621ba4722ef121dc9641e2acb11a9822.bindPopup(popup_60a36f465d2dc092b8792215dd223b66)
+        ;
+
+        
+    
+    
+            var marker_66e37e2a86ccb97ec07eca08d3f1930a = L.marker(
+                [33.4668953782962, 126.339217075218],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_96478cb02d4aa4e20c8b03b5c5097e9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_66e37e2a86ccb97ec07eca08d3f1930a.setIcon(icon_96478cb02d4aa4e20c8b03b5c5097e9a);
+        
+    
+        var popup_8f599cb298d168e8ded87ad7ff9573e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c11427fdfe60d411aee8eabc197f03a6 = $(`<div id="html_c11427fdfe60d411aee8eabc197f03a6" style="width: 100.0%; height: 100.0%;">애월점(goobne)</div>`)[0];
+            popup_8f599cb298d168e8ded87ad7ff9573e1.setContent(html_c11427fdfe60d411aee8eabc197f03a6);
+        
+
+        marker_66e37e2a86ccb97ec07eca08d3f1930a.bindPopup(popup_8f599cb298d168e8ded87ad7ff9573e1)
+        ;
+
+        
+    
+    
+            var marker_02cc66c50a78b250f43441251a3654f1 = L.marker(
+                [33.4741447731614, 126.911017164766],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_ad7682aa4255a7b211d8da9583772073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_02cc66c50a78b250f43441251a3654f1.setIcon(icon_ad7682aa4255a7b211d8da9583772073);
+        
+    
+        var popup_e3a67c70c2615f6f2a46f269f7938e6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b924a2e5cee05e01b237aa8793b26a9c = $(`<div id="html_b924a2e5cee05e01b237aa8793b26a9c" style="width: 100.0%; height: 100.0%;">성산점(goobne)</div>`)[0];
+            popup_e3a67c70c2615f6f2a46f269f7938e6a.setContent(html_b924a2e5cee05e01b237aa8793b26a9c);
+        
+
+        marker_02cc66c50a78b250f43441251a3654f1.bindPopup(popup_e3a67c70c2615f6f2a46f269f7938e6a)
+        ;
+
+        
+    
+    
+            var marker_e98d36f099ab6789aecc8f2075ca0010 = L.marker(
+                [33.2252976228896, 126.250725144844],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_26a698d8d5c9aa931f63c642e4af1002 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e98d36f099ab6789aecc8f2075ca0010.setIcon(icon_26a698d8d5c9aa931f63c642e4af1002);
+        
+    
+        var popup_adff747811178892479b0b916340b9db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd9b206e52ed21e5df20d8a2cbceb32 = $(`<div id="html_3fd9b206e52ed21e5df20d8a2cbceb32" style="width: 100.0%; height: 100.0%;">모슬포점(goobne)</div>`)[0];
+            popup_adff747811178892479b0b916340b9db.setContent(html_3fd9b206e52ed21e5df20d8a2cbceb32);
+        
+
+        marker_e98d36f099ab6789aecc8f2075ca0010.bindPopup(popup_adff747811178892479b0b916340b9db)
+        ;
+
+        
+    
+    
+            var marker_3b6dbe70664c7f341d3c0e5b14920808 = L.marker(
+                [33.511250860968, 126.589494159182],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_f44bc7b0112dee9d992ebb222358dadb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3b6dbe70664c7f341d3c0e5b14920808.setIcon(icon_f44bc7b0112dee9d992ebb222358dadb);
+        
+    
+        var popup_32142aba90fc5b08c876d05740e0b8bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7158ec3ab7b877288fd0492e348829e8 = $(`<div id="html_7158ec3ab7b877288fd0492e348829e8" style="width: 100.0%; height: 100.0%;">도련봉개점(goobne)</div>`)[0];
+            popup_32142aba90fc5b08c876d05740e0b8bc.setContent(html_7158ec3ab7b877288fd0492e348829e8);
+        
+
+        marker_3b6dbe70664c7f341d3c0e5b14920808.bindPopup(popup_32142aba90fc5b08c876d05740e0b8bc)
+        ;
+
+        
+    
+    
+            var marker_0a721f2536bf3f4c7267e67f31f1caaa = L.marker(
+                [33.4952697699567, 126.526917790199],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_89c190d7d0dd2b564ebe64607a9f1686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0a721f2536bf3f4c7267e67f31f1caaa.setIcon(icon_89c190d7d0dd2b564ebe64607a9f1686);
+        
+    
+        var popup_5de04744ebcc6e95a1b3ab2998df590f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b3fdda5f057244fdd0b771ebe6d826e = $(`<div id="html_9b3fdda5f057244fdd0b771ebe6d826e" style="width: 100.0%; height: 100.0%;">도남점(goobne)</div>`)[0];
+            popup_5de04744ebcc6e95a1b3ab2998df590f.setContent(html_9b3fdda5f057244fdd0b771ebe6d826e);
+        
+
+        marker_0a721f2536bf3f4c7267e67f31f1caaa.bindPopup(popup_5de04744ebcc6e95a1b3ab2998df590f)
+        ;
+
+        
+    
+    
+            var marker_3e79a753ac2fe53a0d74f541e5757987 = L.marker(
+                [33.2794809353546, 126.720018699847],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_2e801cddf8c53473dbcc58bac098ba49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3e79a753ac2fe53a0d74f541e5757987.setIcon(icon_2e801cddf8c53473dbcc58bac098ba49);
+        
+    
+        var popup_0d4374c780afcda88726dbda6c42035e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7219002ee9d7425a860195e65e1a3e7d = $(`<div id="html_7219002ee9d7425a860195e65e1a3e7d" style="width: 100.0%; height: 100.0%;">남원점(palicana)</div>`)[0];
+            popup_0d4374c780afcda88726dbda6c42035e.setContent(html_7219002ee9d7425a860195e65e1a3e7d);
+        
+
+        marker_3e79a753ac2fe53a0d74f541e5757987.bindPopup(popup_0d4374c780afcda88726dbda6c42035e)
+        ;
+
+        
+    
+    
+            var marker_89ade2fc0243b2950d2b695efa2878ab = L.marker(
+                [33.511250860968, 126.589494159182],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_92ff81fa5393ff5fa418735b198fdb9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_89ade2fc0243b2950d2b695efa2878ab.setIcon(icon_92ff81fa5393ff5fa418735b198fdb9e);
+        
+    
+        var popup_0a904fc0bc3d79f0bdc0cf0d0ded2ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cf87c269e8cf7dd834c086bbd81f81b = $(`<div id="html_1cf87c269e8cf7dd834c086bbd81f81b" style="width: 100.0%; height: 100.0%;">도련점(palicana)</div>`)[0];
+            popup_0a904fc0bc3d79f0bdc0cf0d0ded2ec9.setContent(html_1cf87c269e8cf7dd834c086bbd81f81b);
+        
+
+        marker_89ade2fc0243b2950d2b695efa2878ab.bindPopup(popup_0a904fc0bc3d79f0bdc0cf0d0ded2ec9)
+        ;
+
+        
+    
+    
+            var marker_9f4457da361c8b22cc8723a9e975b425 = L.marker(
+                [33.2254123962868, 126.256721932375],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_de3e7843007357607b5bcca70cad1393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9f4457da361c8b22cc8723a9e975b425.setIcon(icon_de3e7843007357607b5bcca70cad1393);
+        
+    
+        var popup_852c916bf16e442c34e9cc831a8773a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13e35846b2b1a2486fb690c094a3ba8 = $(`<div id="html_a13e35846b2b1a2486fb690c094a3ba8" style="width: 100.0%; height: 100.0%;">모슬포점(palicana)</div>`)[0];
+            popup_852c916bf16e442c34e9cc831a8773a9.setContent(html_a13e35846b2b1a2486fb690c094a3ba8);
+        
+
+        marker_9f4457da361c8b22cc8723a9e975b425.bindPopup(popup_852c916bf16e442c34e9cc831a8773a9)
+        ;
+
+        
+    
+    
+            var marker_7964e1e68886d7b42684c95564acd6b5 = L.marker(
+                [33.248692865143, 126.559224177916],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_08825531a6e9b84c62b88379314e09aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7964e1e68886d7b42684c95564acd6b5.setIcon(icon_08825531a6e9b84c62b88379314e09aa);
+        
+    
+        var popup_f8ed436eca2b77b0e1fc0c867ca1be44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ee89c27a8635222777b358867b07a1c = $(`<div id="html_7ee89c27a8635222777b358867b07a1c" style="width: 100.0%; height: 100.0%;">서귀동문점(palicana)</div>`)[0];
+            popup_f8ed436eca2b77b0e1fc0c867ca1be44.setContent(html_7ee89c27a8635222777b358867b07a1c);
+        
+
+        marker_7964e1e68886d7b42684c95564acd6b5.bindPopup(popup_f8ed436eca2b77b0e1fc0c867ca1be44)
+        ;
+
+        
+    
+    
+            var marker_efd0a26ff6890533161790a92a2b2fa4 = L.marker(
+                [33.4628944068711, 126.933262105564],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_e10f3f13b33af84ed7cffb9fa3b25a07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_efd0a26ff6890533161790a92a2b2fa4.setIcon(icon_e10f3f13b33af84ed7cffb9fa3b25a07);
+        
+    
+        var popup_2bab6c726faa8f5a2b785629d6e3e82b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_771052753c19931e0ae8a8fd5cb3dfdf = $(`<div id="html_771052753c19931e0ae8a8fd5cb3dfdf" style="width: 100.0%; height: 100.0%;">성산점(palicana)</div>`)[0];
+            popup_2bab6c726faa8f5a2b785629d6e3e82b.setContent(html_771052753c19931e0ae8a8fd5cb3dfdf);
+        
+
+        marker_efd0a26ff6890533161790a92a2b2fa4.bindPopup(popup_2bab6c726faa8f5a2b785629d6e3e82b)
+        ;
+
+        
+    
+    
+            var marker_126a31933b1a68b564d4c63921315265 = L.marker(
+                [33.2505762417266, 126.511824133901],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_4a6addb92f9c6a6583e9fa0df0053fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_126a31933b1a68b564d4c63921315265.setIcon(icon_4a6addb92f9c6a6583e9fa0df0053fe6);
+        
+    
+        var popup_af50e28be6b72621f948711a93ae0343 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b6723550511d9c01869d394a8561afe = $(`<div id="html_2b6723550511d9c01869d394a8561afe" style="width: 100.0%; height: 100.0%;">신시가지점(palicana)</div>`)[0];
+            popup_af50e28be6b72621f948711a93ae0343.setContent(html_2b6723550511d9c01869d394a8561afe);
+        
+
+        marker_126a31933b1a68b564d4c63921315265.bindPopup(popup_af50e28be6b72621f948711a93ae0343)
+        ;
+
+        
+    
+    
+            var marker_bc2bc06f9ea2a9be74d26b78deb98fb2 = L.marker(
+                [33.4863676697719, 126.496165269475],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_29a379451cced5fd4940521ddef7ecac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_bc2bc06f9ea2a9be74d26b78deb98fb2.setIcon(icon_29a379451cced5fd4940521ddef7ecac);
+        
+    
+        var popup_c29abb750827b967e4575e3c3d7ed5b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b344e616a65b82189c6b72eec54ec3de = $(`<div id="html_b344e616a65b82189c6b72eec54ec3de" style="width: 100.0%; height: 100.0%;">신제주점(palicana)</div>`)[0];
+            popup_c29abb750827b967e4575e3c3d7ed5b8.setContent(html_b344e616a65b82189c6b72eec54ec3de);
+        
+
+        marker_bc2bc06f9ea2a9be74d26b78deb98fb2.bindPopup(popup_c29abb750827b967e4575e3c3d7ed5b8)
+        ;
+
+        
+    
+    
+            var marker_9498322691eb85bbd7a61e5cb1f9b037 = L.marker(
+                [33.4739186884163, 126.54636509505],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_faf7b2e0d018cd9eec78aa3152be1f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9498322691eb85bbd7a61e5cb1f9b037.setIcon(icon_faf7b2e0d018cd9eec78aa3152be1f30);
+        
+    
+        var popup_f3aead74c872fb233e2e0af74a62b5cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3056c7b12c2fe42ff56c12fbe053b6bf = $(`<div id="html_3056c7b12c2fe42ff56c12fbe053b6bf" style="width: 100.0%; height: 100.0%;">아라점(palicana)</div>`)[0];
+            popup_f3aead74c872fb233e2e0af74a62b5cc.setContent(html_3056c7b12c2fe42ff56c12fbe053b6bf);
+        
+
+        marker_9498322691eb85bbd7a61e5cb1f9b037.bindPopup(popup_f3aead74c872fb233e2e0af74a62b5cc)
+        ;
+
+        
+    
+    
+            var marker_482079123446d8485dd2393f5914b663 = L.marker(
+                [33.4647213162589, 126.32006438561],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_ad0d06c749bd1053cd99c684f8a4c7eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_482079123446d8485dd2393f5914b663.setIcon(icon_ad0d06c749bd1053cd99c684f8a4c7eb);
+        
+    
+        var popup_59d2748a8df50e92bbf3277c3a6cd596 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98aae056a2c936a40144d1f92b766ece = $(`<div id="html_98aae056a2c936a40144d1f92b766ece" style="width: 100.0%; height: 100.0%;">애월점(palicana)</div>`)[0];
+            popup_59d2748a8df50e92bbf3277c3a6cd596.setContent(html_98aae056a2c936a40144d1f92b766ece);
+        
+
+        marker_482079123446d8485dd2393f5914b663.bindPopup(popup_59d2748a8df50e92bbf3277c3a6cd596)
+        ;
+
+        
+    
+    
+            var marker_10275e6260b534ee4929e64857a32980 = L.marker(
+                [33.4890894896082, 126.486566532585],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_6dd10af9a608825e0834f7249bdbbf18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_10275e6260b534ee4929e64857a32980.setIcon(icon_6dd10af9a608825e0834f7249bdbbf18);
+        
+    
+        var popup_f5cd0b5cf2b994630844f636d5d32f22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3783ec6cd9a8bfb41a8f09e40af95204 = $(`<div id="html_3783ec6cd9a8bfb41a8f09e40af95204" style="width: 100.0%; height: 100.0%;">연동점(palicana)</div>`)[0];
+            popup_f5cd0b5cf2b994630844f636d5d32f22.setContent(html_3783ec6cd9a8bfb41a8f09e40af95204);
+        
+
+        marker_10275e6260b534ee4929e64857a32980.bindPopup(popup_f5cd0b5cf2b994630844f636d5d32f22)
+        ;
+
+        
+    
+    
+            var marker_9613779c96881f84d6c44369bced821a = L.marker(
+                [33.2787997308083, 126.274475963588],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_98f0b662847db0bc968525cc140bc7e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9613779c96881f84d6c44369bced821a.setIcon(icon_98f0b662847db0bc968525cc140bc7e8);
+        
+    
+        var popup_fbd35e0693bede6643cf35d3d8536df9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dff2d37120f41f139029794a13937701 = $(`<div id="html_dff2d37120f41f139029794a13937701" style="width: 100.0%; height: 100.0%;">영어마을점(palicana)</div>`)[0];
+            popup_fbd35e0693bede6643cf35d3d8536df9.setContent(html_dff2d37120f41f139029794a13937701);
+        
+
+        marker_9613779c96881f84d6c44369bced821a.bindPopup(popup_fbd35e0693bede6643cf35d3d8536df9)
+        ;
+
+        
+    
+    
+            var marker_bb1df12c4a25004b538c7a6c539164ff = L.marker(
+                [33.4932219619195, 126.433127482165],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_4930cf3b6ffe5849b3e60fb67f19acda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_bb1df12c4a25004b538c7a6c539164ff.setIcon(icon_4930cf3b6ffe5849b3e60fb67f19acda);
+        
+    
+        var popup_89a2c1e013577e89ed86d3df76bd2cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25ea34b512b69522f53091f49ef20d11 = $(`<div id="html_25ea34b512b69522f53091f49ef20d11" style="width: 100.0%; height: 100.0%;">외도점(palicana)</div>`)[0];
+            popup_89a2c1e013577e89ed86d3df76bd2cc6.setContent(html_25ea34b512b69522f53091f49ef20d11);
+        
+
+        marker_bb1df12c4a25004b538c7a6c539164ff.bindPopup(popup_89a2c1e013577e89ed86d3df76bd2cc6)
+        ;
+
+        
+    
+    
+            var marker_2c81bc83a06bca7a091fe6dc28cae391 = L.marker(
+                [33.2722688594027, 126.663902369468],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_287d80bb40142a0106b93bc6888f654c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2c81bc83a06bca7a091fe6dc28cae391.setIcon(icon_287d80bb40142a0106b93bc6888f654c);
+        
+    
+        var popup_5bdab4bef81b30c04daa521c0a5e319e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec543585af901cc9140dcdff1af84da1 = $(`<div id="html_ec543585af901cc9140dcdff1af84da1" style="width: 100.0%; height: 100.0%;">위미점(palicana)</div>`)[0];
+            popup_5bdab4bef81b30c04daa521c0a5e319e.setContent(html_ec543585af901cc9140dcdff1af84da1);
+        
+
+        marker_2c81bc83a06bca7a091fe6dc28cae391.bindPopup(popup_5bdab4bef81b30c04daa521c0a5e319e)
+        ;
+
+        
+    
+    
+            var marker_9a3064729192d931d8a7102544c05ff4 = L.marker(
+                [33.499258714929, 126.522132230732],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_b6a078d0a1830ceae6e44cca8f78061c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9a3064729192d931d8a7102544c05ff4.setIcon(icon_b6a078d0a1830ceae6e44cca8f78061c);
+        
+    
+        var popup_5fd520691a34c6084ebd0d89a36dab6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8355ebf91812232c59ebd189d1a3e542 = $(`<div id="html_8355ebf91812232c59ebd189d1a3e542" style="width: 100.0%; height: 100.0%;">이도점(palicana)</div>`)[0];
+            popup_5fd520691a34c6084ebd0d89a36dab6d.setContent(html_8355ebf91812232c59ebd189d1a3e542);
+        
+
+        marker_9a3064729192d931d8a7102544c05ff4.bindPopup(popup_5fd520691a34c6084ebd0d89a36dab6d)
+        ;
+
+        
+    
+    
+            var marker_1db02cc235bbb16d56d43ad630459fc5 = L.marker(
+                [33.5028526509736, 126.539903884635],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_1a7159001fe22da453da43ff50ccd839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_1db02cc235bbb16d56d43ad630459fc5.setIcon(icon_1a7159001fe22da453da43ff50ccd839);
+        
+    
+        var popup_51c172ba7951c7b8e7d7b997a67ac7d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96c77d2abaf9eb7c99a1c458c78878c8 = $(`<div id="html_96c77d2abaf9eb7c99a1c458c78878c8" style="width: 100.0%; height: 100.0%;">일도점(palicana)</div>`)[0];
+            popup_51c172ba7951c7b8e7d7b997a67ac7d1.setContent(html_96c77d2abaf9eb7c99a1c458c78878c8);
+        
+
+        marker_1db02cc235bbb16d56d43ad630459fc5.bindPopup(popup_51c172ba7951c7b8e7d7b997a67ac7d1)
+        ;
+
+        
+    
+    
+            var marker_fdef2b83f8bbd61f11fa1e64486a2c11 = L.marker(
+                [33.5131630328361, 126.530330719813],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_fa5732bca40910f8db8882d86cc7f318 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fdef2b83f8bbd61f11fa1e64486a2c11.setIcon(icon_fa5732bca40910f8db8882d86cc7f318);
+        
+    
+        var popup_a2d9e14e88c2214f2e9f64faf93e7c92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca0b335fa0507755797484d0720a3513 = $(`<div id="html_ca0b335fa0507755797484d0720a3513" style="width: 100.0%; height: 100.0%;">제주동문점(palicana)</div>`)[0];
+            popup_a2d9e14e88c2214f2e9f64faf93e7c92.setContent(html_ca0b335fa0507755797484d0720a3513);
+        
+
+        marker_fdef2b83f8bbd61f11fa1e64486a2c11.bindPopup(popup_a2d9e14e88c2214f2e9f64faf93e7c92)
+        ;
+
+        
+    
+    
+            var marker_dd910718cf3c817730f7a8ecaeee1d96 = L.marker(
+                [33.4143042423718, 126.264877703045],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_283558b830cb045c7cb80570d4d571b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_dd910718cf3c817730f7a8ecaeee1d96.setIcon(icon_283558b830cb045c7cb80570d4d571b0);
+        
+    
+        var popup_0d0b9cb50deb88e2ebeb87cb20d55549 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f1bd173462234c9b10095f8f2bae53 = $(`<div id="html_c7f1bd173462234c9b10095f8f2bae53" style="width: 100.0%; height: 100.0%;">한림점(palicana)</div>`)[0];
+            popup_0d0b9cb50deb88e2ebeb87cb20d55549.setContent(html_c7f1bd173462234c9b10095f8f2bae53);
+        
+
+        marker_dd910718cf3c817730f7a8ecaeee1d96.bindPopup(popup_0d0b9cb50deb88e2ebeb87cb20d55549)
+        ;
+
+        
+    
+    
+            var marker_c68c9f78fc6bcd9d15ae3bcb8fc4c3e7 = L.marker(
+                [33.2634026739414, 126.617390506463],
+                {}
+            ).addTo(map_b0a089b3eed55ab5c150f92444c3724e);
+        
+    
+            var icon_bd0be712dff327ba816fcbf88a7ba8d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_c68c9f78fc6bcd9d15ae3bcb8fc4c3e7.setIcon(icon_bd0be712dff327ba816fcbf88a7ba8d1);
+        
+    
+        var popup_69e50caef95d88db664cb6e48fed551f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_801126373789ea42ed6ff12306d8f906 = $(`<div id="html_801126373789ea42ed6ff12306d8f906" style="width: 100.0%; height: 100.0%;">효돈점(palicana)</div>`)[0];
+            popup_69e50caef95d88db664cb6e48fed551f.setContent(html_801126373789ea42ed6ff12306d8f906);
+        
+
+        marker_c68c9f78fc6bcd9d15ae3bcb8fc4c3e7.bindPopup(popup_69e50caef95d88db664cb6e48fed551f)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,17 @@
+from pandas import Series
+
+mylist = ['라일락', '코스모스', '코스모스', '백일홍', '코스모스', '코스모스', '들장미', '들장미', '라일락', '라일락']
+myseries = Series(mylist)
+print(myseries)
+
+myunique = myseries.unique()
+print(myunique)
+print(type(myunique))
+
+print(myseries.value_counts())
+print(type(myseries.value_counts()))
+
+mask = myseries.isin(['들장미', '라일락'])
+print(mask)
+
+print(myseries[mask])

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_255920f378fc3f6436c4e9cf0fbc5da6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_255920f378fc3f6436c4e9cf0fbc5da6" ></div>
+        
+</body>
+<script>    
+    
+            var map_255920f378fc3f6436c4e9cf0fbc5da6 = L.map(
+                "map_255920f378fc3f6436c4e9cf0fbc5da6",
+                {
+                    center: [37.56, 126.92],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2296ece52ddb5704cee06f58697651a5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var marker_778285a93b230fc6354ff8702d8dee6d = L.marker(
+                [37.5644308047071, 126.959701712345],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_834aba3f2ef098522bdee3803e53ade5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_778285a93b230fc6354ff8702d8dee6d.setIcon(icon_834aba3f2ef098522bdee3803e53ade5);
+        
+    
+        var popup_1e431597b2be8ee34716e0c3ee56fbfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f75bbf6cae4ece6a1de98d264e343a38 = $(`<div id="html_f75bbf6cae4ece6a1de98d264e343a38" style="width: 100.0%; height: 100.0%;">북아현점(cheogajip)</div>`)[0];
+            popup_1e431597b2be8ee34716e0c3ee56fbfc.setContent(html_f75bbf6cae4ece6a1de98d264e343a38);
+        
+
+        marker_778285a93b230fc6354ff8702d8dee6d.bindPopup(popup_1e431597b2be8ee34716e0c3ee56fbfc)
+        ;
+
+        
+    
+    
+            var marker_effeafdc2a4fc8cf3d32370041c215ed = L.marker(
+                [37.5899000753645, 126.940985283729],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_966cb6146f33b996fb107fcbf23d9428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_effeafdc2a4fc8cf3d32370041c215ed.setIcon(icon_966cb6146f33b996fb107fcbf23d9428);
+        
+    
+        var popup_570765e9f0f617349e8827786386df44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80afc7edfbed1301c1d89aa140d703d0 = $(`<div id="html_80afc7edfbed1301c1d89aa140d703d0" style="width: 100.0%; height: 100.0%;">홍제점(cheogajip)</div>`)[0];
+            popup_570765e9f0f617349e8827786386df44.setContent(html_80afc7edfbed1301c1d89aa140d703d0);
+        
+
+        marker_effeafdc2a4fc8cf3d32370041c215ed.bindPopup(popup_570765e9f0f617349e8827786386df44)
+        ;
+
+        
+    
+    
+            var marker_0d6c48361d357a6cb7c8093d5e6198fa = L.marker(
+                [37.5592846918152, 126.934262490215],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_2161140e46609f9fda84398318b261d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d6c48361d357a6cb7c8093d5e6198fa.setIcon(icon_2161140e46609f9fda84398318b261d4);
+        
+    
+        var popup_1aa868105010688774f4e60460ae20ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb2cdcd0eb28deac10863ce80b7478f5 = $(`<div id="html_eb2cdcd0eb28deac10863ce80b7478f5" style="width: 100.0%; height: 100.0%;">신촌점(cheogajip)</div>`)[0];
+            popup_1aa868105010688774f4e60460ae20ec.setContent(html_eb2cdcd0eb28deac10863ce80b7478f5);
+        
+
+        marker_0d6c48361d357a6cb7c8093d5e6198fa.bindPopup(popup_1aa868105010688774f4e60460ae20ec)
+        ;
+
+        
+    
+    
+            var marker_44ef6de5619fa85477ae52784ab4f3e1 = L.marker(
+                [37.5711121955777, 126.930248430104],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_a5810c99301e08e37b015d3a6d5a3f67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44ef6de5619fa85477ae52784ab4f3e1.setIcon(icon_a5810c99301e08e37b015d3a6d5a3f67);
+        
+    
+        var popup_fb3ecfc01ac415c9dc5e5c32a483239d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0e6777b87a2a1efb2d85b73db5ab1ae = $(`<div id="html_a0e6777b87a2a1efb2d85b73db5ab1ae" style="width: 100.0%; height: 100.0%;">연희점(cheogajip)</div>`)[0];
+            popup_fb3ecfc01ac415c9dc5e5c32a483239d.setContent(html_a0e6777b87a2a1efb2d85b73db5ab1ae);
+        
+
+        marker_44ef6de5619fa85477ae52784ab4f3e1.bindPopup(popup_fb3ecfc01ac415c9dc5e5c32a483239d)
+        ;
+
+        
+    
+    
+            var marker_715f4caff293e4d003c08e8070032cec = L.marker(
+                [37.5799465337537, 126.906868920916],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_305fa569d046a92ff1ba990af353cf96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_715f4caff293e4d003c08e8070032cec.setIcon(icon_305fa569d046a92ff1ba990af353cf96);
+        
+    
+        var popup_8c131f774bf9c580193213d5efc0b14b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa54922b63d70974e3dcab06356018d8 = $(`<div id="html_aa54922b63d70974e3dcab06356018d8" style="width: 100.0%; height: 100.0%;">북가좌점(cheogajip)</div>`)[0];
+            popup_8c131f774bf9c580193213d5efc0b14b.setContent(html_aa54922b63d70974e3dcab06356018d8);
+        
+
+        marker_715f4caff293e4d003c08e8070032cec.bindPopup(popup_8c131f774bf9c580193213d5efc0b14b)
+        ;
+
+        
+    
+    
+            var marker_57d0958fff92fd9ff583eb7f2c91d242 = L.marker(
+                [37.5883129898892, 126.943215106829],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_dcabbc7c58aaddae207ac26fd099f72f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57d0958fff92fd9ff583eb7f2c91d242.setIcon(icon_dcabbc7c58aaddae207ac26fd099f72f);
+        
+    
+        var popup_aeb5ff057e99902f6503cdc0cff1efbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d50b84660781b9692018cae9f0ca2a4 = $(`<div id="html_2d50b84660781b9692018cae9f0ca2a4" style="width: 100.0%; height: 100.0%;">서울서대문구홍제1점(nene)</div>`)[0];
+            popup_aeb5ff057e99902f6503cdc0cff1efbc.setContent(html_2d50b84660781b9692018cae9f0ca2a4);
+        
+
+        marker_57d0958fff92fd9ff583eb7f2c91d242.bindPopup(popup_aeb5ff057e99902f6503cdc0cff1efbc)
+        ;
+
+        
+    
+    
+            var marker_985aaa1cba78d3dab618c9663c8b6ee1 = L.marker(
+                [37.5570121087078, 126.941456123875],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_8ecb0a909d32a5c2e7bd9580d1ab8765 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_985aaa1cba78d3dab618c9663c8b6ee1.setIcon(icon_8ecb0a909d32a5c2e7bd9580d1ab8765);
+        
+    
+        var popup_8a74c2efc1e58a72afe3baeeb7e1effc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a88a8553e0c97ed9adf694f5039e468a = $(`<div id="html_a88a8553e0c97ed9adf694f5039e468a" style="width: 100.0%; height: 100.0%;">서울서대문구이대역점(nene)</div>`)[0];
+            popup_8a74c2efc1e58a72afe3baeeb7e1effc.setContent(html_a88a8553e0c97ed9adf694f5039e468a);
+        
+
+        marker_985aaa1cba78d3dab618c9663c8b6ee1.bindPopup(popup_8a74c2efc1e58a72afe3baeeb7e1effc)
+        ;
+
+        
+    
+    
+            var marker_d026bc8c4139941466e68b645604a8ae = L.marker(
+                [37.5968324417639, 126.948389180076],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_25fc1c663d2eeb5694f38d231723e77e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d026bc8c4139941466e68b645604a8ae.setIcon(icon_25fc1c663d2eeb5694f38d231723e77e);
+        
+    
+        var popup_ac0ddf61e410bc69bb64e2eaea1e64ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54aa2a1b950e1d3f3281033638c53c01 = $(`<div id="html_54aa2a1b950e1d3f3281033638c53c01" style="width: 100.0%; height: 100.0%;">서울서대문구홍은1점(nene)</div>`)[0];
+            popup_ac0ddf61e410bc69bb64e2eaea1e64ad.setContent(html_54aa2a1b950e1d3f3281033638c53c01);
+        
+
+        marker_d026bc8c4139941466e68b645604a8ae.bindPopup(popup_ac0ddf61e410bc69bb64e2eaea1e64ad)
+        ;
+
+        
+    
+    
+            var marker_7f6ba82466bb24a566cb321e290195a1 = L.marker(
+                [37.5806583359404, 126.915137906035],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_d4c73f135e44ef9cb3f7a9c3e12d267e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f6ba82466bb24a566cb321e290195a1.setIcon(icon_d4c73f135e44ef9cb3f7a9c3e12d267e);
+        
+    
+        var popup_2e48181161c35abbd75ba55028056969 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5874e4091a913ceb76292a479031ca00 = $(`<div id="html_5874e4091a913ceb76292a479031ca00" style="width: 100.0%; height: 100.0%;">서울서대문구북가좌2점(nene)</div>`)[0];
+            popup_2e48181161c35abbd75ba55028056969.setContent(html_5874e4091a913ceb76292a479031ca00);
+        
+
+        marker_7f6ba82466bb24a566cb321e290195a1.bindPopup(popup_2e48181161c35abbd75ba55028056969)
+        ;
+
+        
+    
+    
+            var marker_64a54827d8e94c831560866d92c7458f = L.marker(
+                [37.5659821425625, 126.930460463314],
+                {}
+            ).addTo(map_255920f378fc3f6436c4e9cf0fbc5da6);
+        
+    
+            var icon_7193f14fa7cf89410fe53e97d0d7f6eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64a54827d8e94c831560866d92c7458f.setIcon(icon_7193f14fa7cf89410fe53e97d0d7f6eb);
+        
+    
+        var popup_b60013c2f2a9f93fb34e73a5068a010d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b40f8ad1b2644de9b61f72ac2e6a92fc = $(`<div id="html_b40f8ad1b2644de9b61f72ac2e6a92fc" style="width: 100.0%; height: 100.0%;">서울서대문구연희점(nene)</div>`)[0];
+            popup_b60013c2f2a9f93fb34e73a5068a010d.setContent(html_b40f8ad1b2644de9b61f72ac2e6a92fc);
+        
+
+        marker_64a54827d8e94c831560866d92c7458f.bindPopup(popup_b60013c2f2a9f93fb34e73a5068a010d)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_44fe5e7c873814cfa0a364358b6687c5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_44fe5e7c873814cfa0a364358b6687c5" ></div>
+        
+</body>
+<script>    
+    
+            var map_44fe5e7c873814cfa0a364358b6687c5 = L.map(
+                "map_44fe5e7c873814cfa0a364358b6687c5",
+                {
+                    center: [37.4826099885012, 126.856220132606],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_468d6b7e113d4eeac795a96cbe9dc593 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_44fe5e7c873814cfa0a364358b6687c5);
+        
+    
+            var marker_5a873eb616fb8085885507527b6fd38c = L.marker(
+                [37.4826099885012, 126.856220132606],
+                {}
+            ).addTo(map_44fe5e7c873814cfa0a364358b6687c5);
+        
+    
+            var icon_f94a11d89a0f377a6008ac7574fdf0ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a873eb616fb8085885507527b6fd38c.setIcon(icon_f94a11d89a0f377a6008ac7574fdf0ca);
+        
+    
+        var popup_0639d16f9c99c9730251ff4b307b8d9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f1b7d7f43d2432468cb3089d2853545 = $(`<div id="html_3f1b7d7f43d2432468cb3089d2853545" style="width: 100.0%; height: 100.0%;">경기도 광명점</div>`)[0];
+            popup_0639d16f9c99c9730251ff4b307b8d9f.setContent(html_3f1b7d7f43d2432468cb3089d2853545);
+        
+
+        marker_5a873eb616fb8085885507527b6fd38c.bindPopup(popup_0639d16f9c99c9730251ff4b307b8d9f)
+        ;
+
+        
+    
+    
+            var circle_marker_8c6c4c89ba285dd9af9332d44b1cd3ec = L.circleMarker(
+                [37.4826099885012, 126.856220132606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_44fe5e7c873814cfa0a364358b6687c5);
+        
+    
+        var popup_56e1023a1799b813424a173b762c0c84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_389dada8ebe6f45349b1911adce6cc60 = $(`<div id="html_389dada8ebe6f45349b1911adce6cc60" style="width: 100.0%; height: 100.0%;">경기도 광명점</div>`)[0];
+            popup_56e1023a1799b813424a173b762c0c84.setContent(html_389dada8ebe6f45349b1911adce6cc60);
+        
+
+        circle_marker_8c6c4c89ba285dd9af9332d44b1cd3ec.bindPopup(popup_56e1023a1799b813424a173b762c0c84)
+        ;
+
+        
+    
+</script>
